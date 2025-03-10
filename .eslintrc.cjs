@@ -53,6 +53,14 @@ const config = {
     "babel.config.js",
     //'metro.config.js'
   ],
+  overrides: [
+    {
+      files: ["src/screens/app.tsx"],
+      rules: {
+        "@typescript-eslint/no-var-requires": "off",
+      },
+    },
+  ],
 };
 
 module.exports = config;
