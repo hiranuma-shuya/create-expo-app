@@ -5,7 +5,11 @@ import { StatusBar } from "expo-status-bar";
 
 const App: FC = () => {
   return (
-    <View style={styles.container}><Text>Open up afsdfasdfasfdsadfあsdffpp.tsx to start working ofasdfmasdofjasofjasdofjasifjasdiofjasdo your app!</Text>
+    <View style={styles.container}>
+      <Text>
+        Open up asdfasfsadfsdfasdfasfdsadfあsdffpp.tsx to start working
+        ofasdfmasdofjasofjasdofjasifjasdiofjasdo your app!
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
